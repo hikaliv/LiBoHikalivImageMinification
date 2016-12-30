@@ -1,0 +1,27 @@
+{
+  "name": "libohikalivimageminification",
+  "version": "0.0.0",
+  "maintainers": [
+    {
+      "name": "LiBo Hikaliv",
+      "email": "hikaliv@gmail.com",
+      "web": "http://blog.csdn.net/hikaliv"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "LiBo Hikaliv",
+      "email": "hikaliv@gmail.com",
+      "web": "http://blog.csdn.net/hikaliv"
+    }
+  ],
+  "scripts": {
+    "clean": "echo '整理 npm 各插件间的依赖关系\n' && npm dedupe && npm ls --depth=0 && echo '整理完毕'"
+  },
+  "description": "Li Bo Hikaliv Image Minification",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.1.1"
+  },
+  "license": "GPL-3.0"
+}
